@@ -24,14 +24,14 @@ Build SFT-mini checkpoint → train DPO adapter → compare SFT-only vs SFT+DPO 
 
 **Option 1: Free Colab (zero install)**
 
-[![Open T4 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<your-username>/Day22-Track3-DPO-Alignment-Lab/blob/main/colab/Lab22_DPO_T4.ipynb)
+[![Open T4 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/katuniq/Day22-Track3-DPO-Alignment-Lab/blob/main/colab/Lab22_DPO_T4.ipynb)
 
 Click → Runtime → Change runtime type → **T4 GPU** → Run all.
 
 **Option 2: Local laptop (≥ 12 GB VRAM)**
 
 ```bash
-git clone https://github.com/<your-username>/Day22-Track3-DPO-Alignment-Lab.git
+git clone https://github.com/katuniq/Day22-Track3-DPO-Alignment-Lab.git
 cd Day22-Track3-DPO-Alignment-Lab
 bash setup-laptop.sh    # ~5 min — venv + deps + cuda probe + smoke test
 make smoke              # 2-step training run on each notebook to verify GPU
